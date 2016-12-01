@@ -5,7 +5,7 @@ PDF=fuel.pdf #cost.pdf mileage.pdf oil.pdf
 .PHONY: clean
 
 mazda5.pdf: $(PDF)
-	gs -dBATCH -dNOPAUSE -sDEVICE=pdfwrite -sOutputFile=$@ $^
+	gs -sDEVICE=pdfwrite -o $@ $^
 	rm -f $^
 
 #cost.pdf: cost.R cost.dat
