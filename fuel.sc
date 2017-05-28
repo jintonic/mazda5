@@ -10,9 +10,6 @@ format C 7 3 0
 format D 11 2 0
 format E 6 3 0
 format F 6 2 0
-format H 27 2 0
-color 1 = @white;@black
-color 7 = @white;@blue
 rightstring A0 = "date"
 rightstring B0 = "milage"
 rightstring C0 = "added"
@@ -44,4 +41,44 @@ let D3 = (B3-@nval("B",@myrow-1))/C3
 let E3 = 2.099
 let F3 = 27.96
 let G3 = @nval("G",@myrow-1)+F3
-goto B2 A0
+let A4 = @dts(2016,12,31)
+fmt A4 "%F"
+let B4 = 9704
+let C4 = 14.824
+let D4 = (B4-@nval("B",@myrow-1))/C4
+let E4 = 2.119
+let F4 = 32.32
+let G4 = @nval("G",@myrow-1)+F4
+let A5 = @dts(2017,2,4)
+fmt A5 "%F"
+let B5 = 9939
+let C5 = 13.7
+let D5 = (B5-@nval("B",@myrow-1))/C5
+let E5 = 2.169
+let F5 = 29.02
+let G5 = @nval("G",@myrow-1)+F5
+let A6 = @dts(2017,3,17)
+fmt A6 "%F"
+let B6 = 10187
+let C6 = 13.526
+let D6 = (B6-@nval("B",@myrow-1))/C6
+let E6 = 2.169
+let F6 = 29.34
+let G6 = @nval("G",@myrow-1)+F6
+let A7 = @dts(2017,5,6)
+fmt A7 "%F"
+let B7 = 10477
+let C7 = 13.127
+let D7 = (B7-@nval("B",@myrow-1))/C7
+let E7 = 2.049
+let F7 = 26.9
+let G7 = @nval("G",@myrow-1)+F7
+let A8 = @dts(2017,5,17)
+fmt A8 "%F"
+let B8 = 10786
+let C8 = 11.883
+let D8 = (B8-@nval("B",@myrow-1))/C8
+let E8 = 2.119
+let F8 = 25.18
+let G8 = @nval("G",@myrow-1)+F8
+goto F4 A0
