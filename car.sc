@@ -26,10 +26,16 @@ let A2 = @dts(2015,12,18)
 rightstring C2 = "registered"
 rightstring D2 = "Vermillion, SD"
 let E2 = 287.68
-let F2 = F1+E2
+let F2 = E2+@nval("F",@myrow-1)
 let A3 = @dts(2016,6,25)
 rightstring C3 = "registration renewed"
 rightstring D3 = "Vermillion, SD"
 let E3 = 99
-let F3 = F2+E3
-goto E2 A0
+let F3 = E3+@nval("F",@myrow-1)
+let A4 = @dts(2017,6,25)
+let B4 = 10786
+rightstring C4 = "registration renewed"
+rightstring D4 = "Vermillion, SD"
+let E4 = 99
+let F4 = E4+@nval("F",@myrow-1)
+goto C1 A0

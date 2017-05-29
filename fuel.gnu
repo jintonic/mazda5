@@ -3,7 +3,7 @@ set title "" offset 0.000000,0.000000  font ""
 set xlabel "mileage [1,000 mile]" offset 0.000000,0.000000  font ""
 set xrange [ * : * ] noreverse nowriteback
 set ylabel "efficiency [mile/gallon]" offset 0.000000,0.000000  font ""
-set yrange [ 10 : 25 ] noreverse nowriteback
+set yrange [ 12 : 30 ] noreverse nowriteback
 set lmargin -1
 set bmargin -1
 set rmargin -1
@@ -17,7 +17,7 @@ set title "" offset 0.000000,0.000000  font ""
 set xlabel "" offset 0.000000,0.000000  font ""
 set xrange [ * : * ] noreverse nowriteback
 set ylabel "efficiency [mile/gallon]" offset 0.000000,0.000000  font ""
-set yrange [ 10 : 25 ] noreverse nowriteback
+set yrange [ 12 : 30 ] noreverse nowriteback
 set lmargin -1
 set bmargin -1
 set rmargin -1
