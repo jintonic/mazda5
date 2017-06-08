@@ -8,8 +8,6 @@ format A 10 2 5
 format B 8 0 0
 format C 21 2 0
 format D 15 2 0
-color 1 = @white;@black
-color 7 = @white;@blue
 rightstring A0 = "date"
 rightstring B0 = "mileage"
 rightstring C0 = "what"
@@ -22,20 +20,25 @@ rightstring C1 = "bought"
 rightstring D1 = "Sioux City, IA"
 let E1 = 19920
 let F1 = E1
-let A2 = @dts(2015,12,18)
+let A2 = @dts(2014,12,18)
 rightstring C2 = "registered"
 rightstring D2 = "Vermillion, SD"
 let E2 = 287.68
 let F2 = E2+@nval("F",@myrow-1)
-let A3 = @dts(2016,6,25)
+let A3 = @dts(2015,6,30)
 rightstring C3 = "registration renewed"
 rightstring D3 = "Vermillion, SD"
-let E3 = 99
+let E3 = 52
 let F3 = E3+@nval("F",@myrow-1)
-let A4 = @dts(2017,6,25)
-let B4 = 10786
+let A4 = @dts(2016,6,30)
 rightstring C4 = "registration renewed"
 rightstring D4 = "Vermillion, SD"
-let E4 = 99
+let E4 = 75
 let F4 = E4+@nval("F",@myrow-1)
-goto C1 A0
+let A5 = @dts(2017,6,25)
+let B5 = 10786
+rightstring C5 = "registration renewed"
+rightstring D5 = "Vermillion, SD"
+let E5 = 99
+let F5 = E5+@nval("F",@myrow-1)
+goto E3 A0
