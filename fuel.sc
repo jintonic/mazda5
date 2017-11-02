@@ -332,4 +332,68 @@ let D38 = (B38-@nval("B",@myrow-1))/C38
 let E38 = 2.119
 let F38 = 25.18
 let G38 = @nval("G",@myrow-1)+F38
-goto H14 A0
+let A39 = @dts(2017,6,10)
+fmt A39 "%F"
+let B39 = 11073
+let C39 = 11.524
+let D39 = (B39-@nval("B",@myrow-1))/C39
+let E39 = 2.199
+let F39 = 25.34
+let G39 = @nval("G",@myrow-1)+F39
+let A40 = @dts(2017,6,10)
+fmt A40 "%F"
+let B40 = 11275
+let C40 = 8.22
+let D40 = (B40-@nval("B",@myrow-1))/C40
+let E40 = 2.179
+let F40 = 17.91
+let G40 = @nval("G",@myrow-1)+F40
+let A41 = @dts(2017,6,11)
+fmt A41 "%F"
+let B41 = 11552
+let C41 = 10.426
+let D41 = (B41-@nval("B",@myrow-1))/C41
+let E41 = 1.779
+let F41 = 18.55
+let G41 = @nval("G",@myrow-1)+F41
+let A42 = @dts(2017,6,11)
+fmt A42 "%F"
+let B42 = 11768
+let C42 = 9.571
+let D42 = (B42-@nval("B",@myrow-1))/C42
+let E42 = 2.199
+let F42 = 21.05
+let G42 = @nval("G",@myrow-1)+F42
+let A43 = @dts(2017,6,17)
+fmt A43 "%F"
+let B43 = 12054
+let C43 = 8
+let D43 = (B43-@nval("B",@myrow-1))/C43
+let E43 = 1.779
+let F43 = 19.5
+let G43 = @nval("G",@myrow-1)+F43
+let A44 = @dts(2017,6,17)
+fmt A44 "%F"
+let B44 = 12354
+let C44 = 10.96
+let D44 = (B44-@nval("B",@myrow-1))/C44
+let E44 = 1.779
+let F44 = 19.5
+let G44 = @nval("G",@myrow-1)+F44
+let A45 = @dts(2017,6,18)
+fmt A45 "%F"
+let B45 = 12681
+let C45 = 12.503
+let D45 = (B45-@nval("B",@myrow-1))/C45
+let E45 = 2.159
+let F45 = 26.99
+let G45 = @nval("G",@myrow-1)+F45
+let A46 = @dts(2017,6,18)
+fmt A46 "%F"
+let B46 = 12998
+let C46 = 11.887
+let D46 = (B46-@nval("B",@myrow-1))/C46
+let E46 = 2.109
+let F46 = 25.07
+let G46 = @nval("G",@myrow-1)+F46
+goto C43 A0
