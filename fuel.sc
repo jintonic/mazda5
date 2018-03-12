@@ -430,4 +430,13 @@ let D50 = (B50-@nval("B",@myrow-1))/C50
 let E50 = 2.509
 let F50 = 27.43
 let G50 = @nval("G",@myrow-1)+F50
-goto G50 A28
+let A51 = @dts(2018,3,9)
+fmt A51 "%F"
+let B51 = 14208
+let C51 = 14.112
+let D51 = (B51-@nval("B",@myrow-1))/C51
+let E51 = 2.409
+let F51 = 32.6
+let G51 = @nval("G",@myrow-1)+F51
+rightstring H51 = "cold run all time"
+goto H51 A28
