@@ -439,4 +439,12 @@ let E51 = 2.409
 let F51 = 32.6
 let G51 = @nval("G",@myrow-1)+F51
 rightstring H51 = "cold run all time"
-goto H51 A28
+let A52 = @dts(2018,3,31)
+fmt A52 "%F"
+let B52 = 14376
+let C52 = 7.273
+let D52 = (B52-@nval("B",@myrow-1))/C52
+let E52 = 2.369
+let F52 = 17.23
+let G52 = @nval("G",@myrow-1)+F52
+goto H52 A28
