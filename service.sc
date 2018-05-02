@@ -8,6 +8,8 @@ format A 10 2 5
 format B 34 2 0
 format C 8 0 6
 format D 7 2 0
+color 1 = @white;@black
+color 7 = @white;@blue
 rightstring A0 = "when"
 rightstring B0 = "what"
 rightstring C0 = "mileage"
@@ -23,4 +25,9 @@ rightstring B2 = "changed engine oil and oil filter"
 let C2 = 13453
 let D2 = 56.3
 let E2 = $E1+$D2
-goto E2 A0
+let A3 = @dts(2018,3,31)
+rightstring B3 = "changed engine oil and oil filter"
+let C3 = 14374
+let D3 = 130.54
+let E3 = $E1+$D3
+goto D3 A0
