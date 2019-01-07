@@ -543,4 +543,20 @@ let D64 = (B64-@nval("B",@myrow-1))/C64
 let E64 = 2.099
 let F64 = 22.91
 let G64 = @nval("G",@myrow-1)+F64
-goto D57 A28
+let A65 = @dts(2018,12,5)
+fmt A65 "%F"
+let B65 = 18186
+let C65 = 11.452
+let D65 = (B65-@nval("B",@myrow-1))/C65
+let E65 = 2.159
+let F65 = 24.72
+let G65 = @nval("G",@myrow-1)+F65
+let A66 = @dts(2018,12,21)
+fmt A66 "%F"
+let B66 = 18429
+let C66 = 11.925
+let D66 = (B66-@nval("B",@myrow-1))/C66
+let E66 = 1.999
+let F66 = 23.84
+let G66 = @nval("G",@myrow-1)+F66
+goto F66 A28
