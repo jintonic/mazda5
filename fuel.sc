@@ -10,6 +10,7 @@ format C 7 3 0
 format D 11 2 0
 format E 6 3 0
 format F 6 2 0
+format H 12 2 0
 color 1 = @white;@black
 color 7 = @white;@blue
 rightstring A0 = "date"
@@ -583,36 +584,54 @@ let D69 = (B69-@nval("B",@myrow-1))/C69
 let E69 = 2.429
 let F69 = 23.07-31.18
 let G69 = @nval("G",@myrow-1)+F69
-let A70 = @dts(2019,5,26)
+let A70 = @dts(2019,4,20)
 fmt A70 "%F"
-let B70 = 20624
-let C70 = 12.252
+rightstring B70 = "19410"
+let B70 = 19530
+let C70 = 5.042
 let D70 = (B70-@nval("B",@myrow-1))/C70
-let E70 = 2.449
-let F70 = 30.01
+let E70 = 2.859
+let F70 = 14.42
 let G70 = @nval("G",@myrow-1)+F70
-let A71 = @dts(2019,6,5)
+rightstring H70 = "mileage not recorded"
+let A71 = @dts(2019,5,26)
 fmt A71 "%F"
-let B71 = 20974
-let C71 = 12.277
+let B71 = 20624
+let C71 = 12.252
 let D71 = (B71-@nval("B",@myrow-1))/C71
-let E71 = 2.599
-let F71 = 31.91
+let E71 = 2.449
+let F71 = 30.01
 let G71 = @nval("G",@myrow-1)+F71
-let A72 = @dts(2019,6,6)
+let A72 = @dts(2019,6,5)
 fmt A72 "%F"
-let B72 = 21309
-let C72 = 11.798
+let B72 = 20974
+let C72 = 12.277
 let D72 = (B72-@nval("B",@myrow-1))/C72
-let E72 = 2.559
-let F72 = 30.19
+let E72 = 2.599
+let F72 = 31.91
 let G72 = @nval("G",@myrow-1)+F72
-let A73 = @dts(2019,6,15)
+let A73 = @dts(2019,6,6)
 fmt A73 "%F"
-let B73 = 21454
-let C73 = 5.152
+let B73 = 21309
+let C73 = 11.798
 let D73 = (B73-@nval("B",@myrow-1))/C73
-let E73 = 2.169
-let F73 = 11.17
+let E73 = 2.559
+let F73 = 30.19
 let G73 = @nval("G",@myrow-1)+F73
-goto F73 A28
+let A74 = @dts(2019,6,15)
+fmt A74 "%F"
+let B74 = 21454
+let C74 = 5.152
+let D74 = (B74-@nval("B",@myrow-1))/C74
+let E74 = 2.169
+let F74 = 11.17
+let G74 = @nval("G",@myrow-1)+F74
+let A75 = @dts(2019,7,20)
+fmt A75 "%F"
+let B75 = 21957
+let C75 = 12.244
+let D75 = (B75-@nval("B",@myrow-1))/C75
+let E75 = 2.459
+let F75 = 30.11
+let G75 = @nval("G",@myrow-1)+F75
+goto H48 A28
