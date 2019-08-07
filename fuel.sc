@@ -246,12 +246,11 @@ let G27 = @nval("G",@myrow-1)+F27
 let A28 = @dts(2016,3,27)
 fmt A28 "%F"
 let B28 = 8424
-let C28 = 16.726
+let C28 = 12.329
 let D28 = (B28-@nval("B",@myrow-1))/C28
 let E28 = 1.903
-let F28 = 31.94
+let F28 = 23.41
 let G28 = @nval("G",@myrow-1)+F28
-rightstring H28 = "combined result"
 let A29 = @dts(2016,4,15)
 fmt A29 "%F"
 let B29 = 8677
@@ -634,4 +633,28 @@ let D75 = (B75-@nval("B",@myrow-1))/C75
 let E75 = 2.459
 let F75 = 30.11
 let G75 = @nval("G",@myrow-1)+F75
-goto H48 A28
+let A76 = @dts(2019,7,28)
+fmt A76 "%F"
+let B76 = 22099
+let C76 = 5.732
+let D76 = (B76-@nval("B",@myrow-1))/C76
+let E76 = 2.359
+let F76 = 13.52
+let G76 = @nval("G",@myrow-1)+F76
+let A77 = @dts(2019,8,3)
+fmt A77 "%F"
+let B77 = 22275
+let C77 = 6.189
+let D77 = (B77-@nval("B",@myrow-1))/C77
+let E77 = 2.439
+let F77 = 15.09
+let G77 = @nval("G",@myrow-1)+F77
+let A78 = @dts(2019,8,6)
+fmt A78 "%F"
+let B78 = 22474
+let C78 = 8.339
+let D78 = (B78-@nval("B",@myrow-1))/C78
+let E78 = 2.499
+let F78 = 20.84
+let G78 = @nval("G",@myrow-1)+F78
+goto F78 A21
