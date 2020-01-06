@@ -625,100 +625,180 @@ let D74 = (B74-@nval("B",@myrow-1))/C74
 let E74 = 2.169
 let F74 = 11.17
 let G74 = @nval("G",@myrow-1)+F74
-let A75 = @dts(2019,7,20)
+let A75 = @dts(2019,6,29)
 fmt A75 "%F"
-let B75 = 21957
-let C75 = 12.244
+let B75 = 21630
+let C75 = 7.401
 let D75 = (B75-@nval("B",@myrow-1))/C75
-let E75 = 2.459
-let F75 = 30.11
+let E75 = 2.359
+let F75 = 17.46
 let G75 = @nval("G",@myrow-1)+F75
-let A76 = @dts(2019,7,28)
+let A76 = @dts(2019,7,20)
 fmt A76 "%F"
-let B76 = 22099
-let C76 = 5.732
+let B76 = 21957
+let C76 = 12.244
 let D76 = (B76-@nval("B",@myrow-1))/C76
-let E76 = 2.359
-let F76 = 13.52
+let E76 = 2.459
+let F76 = 30.11
 let G76 = @nval("G",@myrow-1)+F76
-let A77 = @dts(2019,8,3)
+let A77 = @dts(2019,7,28)
 fmt A77 "%F"
-let B77 = 22275
-let C77 = 6.189
+let B77 = 22099
+let C77 = 5.732
 let D77 = (B77-@nval("B",@myrow-1))/C77
-let E77 = 2.439
-let F77 = 15.09
+let E77 = 2.359
+let F77 = 13.52
 let G77 = @nval("G",@myrow-1)+F77
-let A78 = @dts(2019,8,6)
+let A78 = @dts(2019,8,3)
 fmt A78 "%F"
-let B78 = 22474
-let C78 = 8.339
+let B78 = 22275
+let C78 = 6.189
 let D78 = (B78-@nval("B",@myrow-1))/C78
-let E78 = 2.499
-let F78 = 20.84
+let E78 = 2.439
+let F78 = 15.09
 let G78 = @nval("G",@myrow-1)+F78
-let A79 = @dts(2019,8,31)
+let A79 = @dts(2019,8,6)
 fmt A79 "%F"
-let B79 = 22692
-let C79 = 8.838
+let B79 = 22474
+let C79 = 8.339
 let D79 = (B79-@nval("B",@myrow-1))/C79
-let E79 = 2.149
-let F79 = 18.99
+let E79 = 2.499
+let F79 = 20.84
 let G79 = @nval("G",@myrow-1)+F79
-let A80 = @dts(2019,9,14)
+let A80 = @dts(2019,8,31)
 fmt A80 "%F"
-let B80 = 23005
-let C80 = 12.081
+let B80 = 22692
+let C80 = 8.838
 let D80 = (B80-@nval("B",@myrow-1))/C80
-let E80 = 2.179
-let F80 = 26.32
+let E80 = 2.149
+let F80 = 18.99
 let G80 = @nval("G",@myrow-1)+F80
-let A81 = @dts(2019,10,3)
+let A81 = @dts(2019,9,14)
 fmt A81 "%F"
-let B81 = 23265
-let C81 = 10.859
+let B81 = 23005
+let C81 = 12.081
 let D81 = (B81-@nval("B",@myrow-1))/C81
-let E81 = 2.299
-let F81 = 24.96
+let E81 = 2.179
+let F81 = 26.32
 let G81 = @nval("G",@myrow-1)+F81
-let A82 = @dts(2019,10,24)
+let A82 = @dts(2019,10,3)
 fmt A82 "%F"
-let B82 = 23577
-let C82 = 6.085
+let B82 = 23265
+let C82 = 10.859
 let D82 = (B82-@nval("B",@myrow-1))/C82
-let E82 = 2.399
-let F82 = 14.6
+let E82 = 2.299
+let F82 = 24.96
 let G82 = @nval("G",@myrow-1)+F82
-let A83 = @dts(2019,11,2)
+let A83 = @dts(2019,10,24)
 fmt A83 "%F"
-let B83 = 23693
-let C83 = 5.081
+let B83 = 23577
+let C83 = 6.085
 let D83 = (B83-@nval("B",@myrow-1))/C83
 let E83 = 2.399
-let F83 = 12.19
+let F83 = 14.6
 let G83 = @nval("G",@myrow-1)+F83
 let A84 = @dts(2019,11,2)
 fmt A84 "%F"
-let B84 = 23794
-let C84 = 10.516
+let B84 = 23693
+let C84 = 5.081
 let D84 = (B84-@nval("B",@myrow-1))/C84
-let E84 = 2.259
-let F84 = 23.76
+let E84 = 2.399
+let F84 = 12.19
 let G84 = @nval("G",@myrow-1)+F84
-let A85 = @dts(2019,11,10)
+let A85 = @dts(2019,11,2)
 fmt A85 "%F"
-let B85 = 24068
-let C85 = 12.083
+let B85 = 23794
+let C85 = 10.516
 let D85 = (B85-@nval("B",@myrow-1))/C85
-let E85 = 2.319
-let F85 = 28.02
+let E85 = 2.259
+let F85 = 23.76
 let G85 = @nval("G",@myrow-1)+F85
-let A86 = @dts(2019,11,14)
+let A86 = @dts(2019,11,10)
 fmt A86 "%F"
-let B86 = 24283
-let C86 = 8.9
+let B86 = 24068
+let C86 = 12.083
 let D86 = (B86-@nval("B",@myrow-1))/C86
 let E86 = 2.319
-let F86 = 20.64
+let F86 = 28.02
 let G86 = @nval("G",@myrow-1)+F86
-goto F86 A21
+let A87 = @dts(2019,11,14)
+fmt A87 "%F"
+let B87 = 24283
+let C87 = 8.9
+let D87 = (B87-@nval("B",@myrow-1))/C87
+let E87 = 2.319
+let F87 = 20.64
+let G87 = @nval("G",@myrow-1)+F87
+let A88 = @dts(2019,11,20)
+fmt A88 "%F"
+let B88 = 24577
+let C88 = 10.43
+let D88 = (B88-@nval("B",@myrow-1))/C88
+let E88 = 2.369
+let F88 = 24.71
+let G88 = @nval("G",@myrow-1)+F88
+let A89 = @dts(2019,11,25)
+fmt A89 "%F"
+let B89 = 24843
+let C89 = 10.68
+let D89 = (B89-@nval("B",@myrow-1))/C89
+let E89 = 2.399
+let F89 = 25.62
+let G89 = @nval("G",@myrow-1)+F89
+let A90 = @dts(2019,11,26)
+fmt A90 "%F"
+let B90 = 25141
+let C90 = 11.858
+let D90 = (B90-@nval("B",@myrow-1))/C90
+let E90 = 2.449
+let F90 = 29.04
+let G90 = @nval("G",@myrow-1)+F90
+let A91 = @dts(2019,11,30)
+fmt A91 "%F"
+let B91 = 25531
+let C91 = 14.117
+let D91 = (B91-@nval("B",@myrow-1))/C91
+let E91 = 2.449
+let F91 = 35.22
+let G91 = @nval("G",@myrow-1)+F91
+let A92 = @dts(2019,11,30)
+fmt A92 "%F"
+let B92 = 25855
+let C92 = 12.306
+let D92 = (B92-@nval("B",@myrow-1))/C92
+let E92 = 2.359
+let F92 = 29.03
+let G92 = @nval("G",@myrow-1)+F92
+let A93 = @dts(2019,12,7)
+fmt A93 "%F"
+let B93 = 26177
+let C93 = 13.316
+let D93 = (B93-@nval("B",@myrow-1))/C93
+let E93 = 2.299
+let F93 = 30.61
+let G93 = @nval("G",@myrow-1)+F93
+let A94 = @dts(2019,12,18)
+fmt A94 "%F"
+let B94 = 26419
+let C94 = 10.558
+let D94 = (B94-@nval("B",@myrow-1))/C94
+let E94 = 2.249
+let F94 = 23.74
+let G94 = @nval("G",@myrow-1)+F94
+let A95 = @dts(2019,12,27)
+fmt A95 "%F"
+let B95 = 26725
+let C95 = 12.421
+let D95 = (B95-@nval("B",@myrow-1))/C95
+let E95 = 2.299
+let F95 = 28.56
+let G95 = @nval("G",@myrow-1)+F95
+let A96 = @dts(2020,1,2)
+fmt A96 "%F"
+let B96 = 27003
+let C96 = 10.65
+let D96 = (B96-@nval("B",@myrow-1))/C96
+let E96 = 2.299
+let F96 = 24.48
+let G96 = @nval("G",@myrow-1)+F96
+goto F97 A59
