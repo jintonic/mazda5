@@ -801,4 +801,21 @@ let D96 = (B96-@nval("B",@myrow-1))/C96
 let E96 = 2.299
 let F96 = 24.48
 let G96 = @nval("G",@myrow-1)+F96
-goto F97 A59
+let A97 = @dts(2020,1,11)
+fmt A97 "%F"
+let B97 = 27222
+let C97 = 10.976
+let D97 = (B97-@nval("B",@myrow-1))/C97
+let E97 = 2.299
+let F97 = 25.23
+let G97 = @nval("G",@myrow-1)+F97
+rightstring H97 = "mileage not recorded"
+let A98 = @dts(2020,2,7)
+fmt A98 "%F"
+let B98 = 27518
+let C98 = 12.774
+let D98 = (B98-@nval("B",@myrow-1))/C98
+let E98 = 2.129
+let F98 = 27.2
+let G98 = @nval("G",@myrow-1)+F98
+goto H98 A59
